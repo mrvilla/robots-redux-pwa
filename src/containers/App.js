@@ -34,9 +34,7 @@ class App extends Component {
       return robot.name.toLowerCase().includes(searchField.toLowerCase());
     })
 
-    return isPending ?
-      <h1>Loading</h1> :
-      (
+    return (
         <>
           <header className='tc mb4'>
             <h1>Robots</h1>
@@ -47,11 +45,13 @@ class App extends Component {
             />
           </div>
           <Scroll>
-            <ErrorBoundary>
-              <CardList
-                robots={filterRobots}
-              />
-            </ErrorBoundary>
+            { isPending ? <h1>Loading....</h1> :
+              <ErrorBoundary>
+                <CardList
+                  robots={filterRobots}
+                />
+              </ErrorBoundary>
+            }
           </Scroll>
         </>
       );
