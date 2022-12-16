@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/robots-redux-pwa/static/css/main.ae5607bb.css",
+    "main.js": "/robots-redux-pwa/static/js/main.5b261f8b.js",
+    "static/js/787.3be0163a.chunk.js": "/robots-redux-pwa/static/js/787.3be0163a.chunk.js",
+    "service-worker.js": "/robots-redux-pwa/service-worker.js",
+    "index.html": "/robots-redux-pwa/index.html",
+    "main.ae5607bb.css.map": "/robots-redux-pwa/static/css/main.ae5607bb.css.map",
+    "main.5b261f8b.js.map": "/robots-redux-pwa/static/js/main.5b261f8b.js.map",
+    "787.3be0163a.chunk.js.map": "/robots-redux-pwa/static/js/787.3be0163a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae5607bb.css",
+    "static/js/main.5b261f8b.js"
+  ]
+}
