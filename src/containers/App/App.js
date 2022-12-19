@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import CardList from '../components/CardList';
-import SearchBox from '../components/SearchBox';
-import Scroll from '../components/Scroll';
-import ErrorBoundary from '../components/ErrorBoundary';
+import CardList from '../../components/Card/CardList';
+import SearchBox from '../../components/Search/SearchBox';
+import Scroll from '../../components/Scroll/Scroll';
+import ErrorBoundary from '../../components/ErrorBoundary/ErrorBoundary';
 import { connect } from 'react-redux';
-import { setSearchField, requestRobots } from '../actions';
+import { setSearchField, requestRobots } from '../../state/actions';
 
 const mapStateToProps = state => {
   return {

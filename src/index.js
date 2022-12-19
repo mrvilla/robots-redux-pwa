@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './containers/App';
+import App from './containers/App/App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
 import { applyMiddleware, createStore, combineReducers } from 'redux';
-import { searchRobots, requestRobots } from './reducers';
+import { searchRobots, requestRobots } from './state/reducers';
 import { Provider } from 'react-redux';
 import { createLogger } from 'redux-logger/src';
 import thunkMiddleware from 'redux-thunk';
