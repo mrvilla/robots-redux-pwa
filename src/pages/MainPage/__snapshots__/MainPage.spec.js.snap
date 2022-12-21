@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainPage Snapshot testing MainPage renders correctly 1`] = `
+Array [
+  <header
+    className="tc mb4"
+  >
+    <h1>
+      Robots
+    </h1>
+  </header>,
+  <div
+    className="tc mb4"
+  >
+    <div
+      className="tc mb4"
+    >
+      <input
+        className="pa2 ba"
+        placeholder="Search robot"
+        type="search"
+      />
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "height": "800px",
+        "overflow": "scroll",
+      }
+    }
+  >
+    <div
+      className="tc"
+    />
+  </div>,
+]
+`;

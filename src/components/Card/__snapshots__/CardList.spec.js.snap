@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardList Snapshot testing CardList renders correctly 1`] = `
+<div
+  className="tc"
+>
+  <div
+    className="dib br3 pa2 ma2 tc"
+  >
+    <img
+      alt="robot"
+      src="https://robohash.org/1?size=220x220"
+    />
+    <div>
+      <h2>
+        John Doe
+      </h2>
+      <p>
+        j.doe@mail.com
+      </p>
+    </div>
+  </div>
+</div>
+`;
